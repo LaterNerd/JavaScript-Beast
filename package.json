@@ -1,7 +1,7 @@
 {
 	"name": "javascript-beast",
 	"version": "0.1.0",
-	"homepage": "http://LaterNerd.github.io/JavaScript-Beast",
+	"homepage": "https://javascriptbeast.com/",
 	"private": true,
 	"dependencies": {
 		"@codemirror/lang-javascript": "^6.1.1",
