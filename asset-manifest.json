@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/JavaScript-Beast/static/css/main.f5f49fbf.css",
-    "main.js": "/JavaScript-Beast/static/js/main.e82c85f3.js",
-    "static/js/787.f501617c.chunk.js": "/JavaScript-Beast/static/js/787.f501617c.chunk.js",
-    "static/media/Third Rail.ttf": "/JavaScript-Beast/static/media/Third Rail.d3d2cf550960b2c96522.ttf",
-    "static/media/CHEDROS Regular.ttf": "/JavaScript-Beast/static/media/CHEDROS Regular.5ae3f8f892dc748cf420.ttf",
-    "index.html": "/JavaScript-Beast/index.html",
-    "main.f5f49fbf.css.map": "/JavaScript-Beast/static/css/main.f5f49fbf.css.map",
-    "main.e82c85f3.js.map": "/JavaScript-Beast/static/js/main.e82c85f3.js.map",
-    "787.f501617c.chunk.js.map": "/JavaScript-Beast/static/js/787.f501617c.chunk.js.map"
+    "main.css": "/static/css/main.01414b00.css",
+    "main.js": "/static/js/main.a9577f5d.js",
+    "static/js/787.f501617c.chunk.js": "/static/js/787.f501617c.chunk.js",
+    "static/media/Third Rail.ttf": "/static/media/Third Rail.d3d2cf550960b2c96522.ttf",
+    "static/media/CHEDROS Regular.ttf": "/static/media/CHEDROS Regular.5ae3f8f892dc748cf420.ttf",
+    "index.html": "/index.html",
+    "main.01414b00.css.map": "/static/css/main.01414b00.css.map",
+    "main.a9577f5d.js.map": "/static/js/main.a9577f5d.js.map",
+    "787.f501617c.chunk.js.map": "/static/js/787.f501617c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5f49fbf.css",
-    "static/js/main.e82c85f3.js"
+    "static/css/main.01414b00.css",
+    "static/js/main.a9577f5d.js"
   ]
 }
