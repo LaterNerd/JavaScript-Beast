@@ -1,9 +1,9 @@
 import ReactMarkdown from 'react-markdown';
 import CodeMirror from '@uiw/react-codemirror';
 import { javascript } from '@codemirror/lang-javascript';
-import { vscodeDark } from '@uiw/codemirror-theme-vscode';
 import { useState } from 'react';
 import objectInspect from 'object-inspect';
+import { atomone } from '@uiw/codemirror-theme-atomone';
 
 const originalConsoleLog = console.log;
 const originalConsoleError = console.error;
@@ -63,8 +63,7 @@ export const Card = ({ title, src, challengeDefinition, challengeCode }) => {
 					<CodeMirror
 						value={challengeCode}
 						extensions={javascript({ jsx: true })}
-						// height={'150px'}
-						theme={vscodeDark}
+						theme={atomone}
 						onChange={(editor) => {
 							if (result !== '') {
 								setResult('');
