@@ -8,6 +8,8 @@ import { atomone } from '@uiw/codemirror-theme-atomone';
 const originalConsoleLog = console.log;
 const originalConsoleError = console.error;
 
+const youtubeEmbedLink = 'https://www.youtube.com/embed/';
+
 const formatArrayItemsIntoString = (array) => {
 	const combineItemsIntoNewArray = (previousArray, arrayElement) => {
 		const newArray = [...previousArray, objectInspect(arrayElement)];
@@ -21,7 +23,12 @@ const formatArrayItemsIntoString = (array) => {
 	return arrayItemsIntoString;
 };
 
-export const Card = ({ title, src, challengeDefinition, challengeCode }) => {
+export const Card = ({
+	title,
+	videoID,
+	challengeDefinition,
+	challengeCode,
+}) => {
 	const [code, setCode] = useState();
 	const [result, setResult] = useState('');
 	const [error, setError] = useState('');
@@ -53,7 +60,17 @@ export const Card = ({ title, src, challengeDefinition, challengeCode }) => {
 	return (
 		<div className='card'>
 			<h2 className='title text-center'>{title}</h2>
-			<img src={src} />
+			<div className='iframe-container'>
+				<iframe
+					width='560'
+					height='315'
+					src={`${youtubeEmbedLink}${videoID}`}
+					title='YouTube video player'
+					frameborder='0'
+					allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+					allowfullscreen
+				/>
+			</div>
 			<div className='card-content'>
 				<h3 className='title challenge-title'>Challenge</h3>
 

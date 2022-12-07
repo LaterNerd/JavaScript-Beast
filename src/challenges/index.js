@@ -30,7 +30,7 @@ console.log(quietQuestion('bruh why'));
 const challenges = [
 	{
 		title: '100 Kids Vs 100 Adults For $500,000',
-		src: 'https://i.ytimg.com/vi/0CTp1a-aCUM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDGwO95PoEV4oKl8xxN8Nul7hGHA',
+		videoID: '0CTp1a-aCUM',
 		challengeDefinition: challengeOneDefinition,
 		challengeCode: challengeOneCode,
 		challengeAnswer: '',

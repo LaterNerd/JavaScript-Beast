@@ -7,7 +7,7 @@ export const CardContainer = () => {
 			{challenges.map((challenge, index) => {
 				const {
 					title,
-					src,
+					videoID,
 					challengeDefinition,
 					challengeCode,
 					challengeAnswer,
@@ -17,7 +17,7 @@ export const CardContainer = () => {
 					<Card
 						key={index}
 						title={title}
-						src={src}
+						videoID={videoID}
 						challengeDefinition={challengeDefinition}
 						challengeCode={challengeCode}
 						challengeAnswer={challengeAnswer}
