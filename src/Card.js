@@ -77,18 +77,20 @@ export const Card = ({
 				<ReactMarkdown children={challengeDefinition} />
 				<br />
 				<div className='editor'>
-					<CodeMirror
-						value={challengeCode}
-						extensions={javascript({ jsx: true })}
-						theme={atomone}
-						onChange={(editor) => {
-							if (result !== '') {
-								setResult('');
-								setError('');
-							}
-							setCode(editor);
-						}}
-					/>
+					<div>
+						<CodeMirror
+							value={challengeCode}
+							extensions={javascript({ jsx: true })}
+							theme={atomone}
+							onChange={(editor) => {
+								if (result !== '') {
+									setResult('');
+									setError('');
+								}
+								setCode(editor);
+							}}
+						/>
+					</div>
 					{result && result !== undefined ? (
 						<div className='text-center result-success'>RESULT: {result}</div>
 					) : null}

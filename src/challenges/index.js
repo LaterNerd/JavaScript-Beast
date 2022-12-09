@@ -18,12 +18,36 @@ Each new object should have the properties: *title*, *videoLink*, and *posted*.
 Here's an example of what each object should look like...
 `;
 
+const challengeThreeDefinition = `
+Create a template literal that shows the Mr. Beast Burger Menu.
+
+To do it, you'll have to...
+1. Define the values on the menuItems object.
+2. De-structure the object into three variables.
+3. Create a template literal that displays the menu.
+4. Use the de-structured variables in the template literal.
+
+Here's an example of what the menu should look like...
+`;
+
+const challengeFourDefinition = `
+Write a function that takes a string: *'burger,'* *'fries,'* *'soda,'* or *'cookie.'*
+
+And returns the phrase **"FEAST 🦁 LIKE 🦁 A 🦁 BEAST!!!"**
+
+If the string you enter's on the list, replace the lion with the right food emoji.
+
+Otherwise, keep the default emoji as a lion.
+
+Here's an example of what it should look like...
+`;
+
 const challengeOneCode = `
 // input: JIMMY!
 //  - output: jimmy!?
 
-// input: ARE YOU MR. BEAST!
-//  - output: are 🤫 you 🤫 mr. 🤫 beast?
+// input: ARE YOU MR. BEAST!?
+//  - output: are 🤫 you 🤫 mr. 🤫 beast!??
 
 
 function quietQuestion() {
@@ -43,7 +67,7 @@ output: an array of objects that look like this
 
 {
 	title: '100 Kids Vs 100 Adults For $500,000',
-	videoLink: 'https://www.youtube.com/embed/0CTp1a-aCUM',
+	videoLink: 'https://youtu.be/0CTp1a-aCUM',
 	posted: 'Sat Dec 03 2022
 }
 
@@ -51,36 +75,36 @@ output: an array of objects that look like this
 
 
 const mrBeastVideos = [
-    {
-		title: '100 Kids Vs 100 Adults For $500,000',
-		id: '0CTp1a-aCUM',
-		uploadDate: '2022-12-03T08:00:00.000Z',
-		views: '44,106,024'
-    },
-    {
-		title: 'Last To Take Hand Off Jet, Keeps It!',
-		id: 'kX3nB4PpJko',
-		uploadDate: '2022-11-12T08:00:00.000Z',
-		views: '66,828,620'
-    },
-    {
-		title: '$1 vs $1,000,000 Hotel Room!',
-		id: 'iogcY_4xGjo',
-		uploadDate: '2022-10-22T07:00:00.000Z',
-		views: '97,435,672'
-    },
-    {
-		title: 'Survive 100 Days In Circle, Win $500,000',
-		id: 'gHzuabZUd6c',
-		uploadDate: '2022-09-24T07:00:00.000Z',
-		views: '81,414,952'
-    },
-    {
-		title: 'I Hunted 100 People!',
-		id: '65fN_OUawjk',
-		uploadDate: '2022-09-03T07:00:00.000Z',
-		views: '57,160,192'
-    },
+{
+	title: '100 Kids Vs 100 Adults For $500,000',
+	id: '0CTp1a-aCUM',
+	uploadDate: '2022-12-03T08:00:00.000Z',
+	views: '44,106,024'
+},
+{
+	title: 'Last To Take Hand Off Jet, Keeps It!',
+	id: 'kX3nB4PpJko',
+	uploadDate: '2022-11-12T08:00:00.000Z',
+	views: '66,828,620'
+},
+{
+	title: '$1 vs $1,000,000 Hotel Room!',
+	id: 'iogcY_4xGjo',
+	uploadDate: '2022-10-22T07:00:00.000Z',
+	views: '97,435,672'
+},
+{
+	title: 'Survive 100 Days In Circle, Win $500,000',
+	id: 'gHzuabZUd6c',
+	uploadDate: '2022-09-24T07:00:00.000Z',
+	views: '81,414,952'
+},
+{
+	title: 'I Hunted 100 People!',
+	id: '65fN_OUawjk',
+	uploadDate: '2022-09-03T07:00:00.000Z',
+	views: '57,160,192'
+},
 ];
 
 
@@ -93,6 +117,76 @@ function prettyVideoData() {
 // function should return an array of 5 objects 
 // that look like the example above
 console.log(prettyVideoData(mrBeastVideos)[0]);
+`;
+
+const challengeThreeCode = `
+/*
+output: a string that look like this...
+
+Welcome to Beast Burger!!!
+
+Meals:
+Chicken Sandwich Combo - 🍔🐓🍟🥤
+Beast Style Burger Combo - 🍔🦁🍟🥤
+
+Burgers:
+Chris Style - 🍔🍟
+Beast Style - 🍔🦁
+Karl's Grilled Cheese - 🥪
+Chandler Style - 🍔🧀
+
+Dessert:
+Chocolate Chip Cookie - 🍪
+
+*/
+
+
+// write your code here
+const menuItems = {
+    meals: {
+        0: "",
+        1: ""
+    },
+    burgers: {
+        0: "",
+        1: "",
+        2: "",
+        3: "",
+    },
+    dessert: ""
+};
+
+
+// template literal ?
+let mrBeastBurgerMenu;
+
+
+// template literal returns a string
+console.log(mrBeastBurgerMenu);
+`;
+
+const challengeFourCode = `
+/*
+
+// input: 'burger'
+	- output: FEAST 🍔 LIKE 🍔 A 🍔 BEAST!!!
+// input: 'fries'
+ 	- output: FEAST 🍟 LIKE 🍟 A 🍟 BEAST!!!
+// input: 'soda'
+ 	- output: FEAST 🥤 LIKE 🥤 A 🥤 BEAST!!!
+// input: 'cookie'
+ 	- output: FEAST 🍪 LIKE 🍪 A 🍪 BEAST!!!
+
+*/
+
+function feast() {
+	// write your code here
+
+}
+
+
+// test your code by changing the argument
+console.log(feast('cookies'));
 `;
 
 const challenges = [
@@ -108,6 +202,20 @@ const challenges = [
 		videoID: 'kX3nB4PpJko',
 		challengeDefinition: challengeTwoDefinition,
 		challengeCode: challengeTwoCode,
+		challengeAnswer: '',
+	},
+	{
+		title: '$1 vs $1,000,000 Hotel Room!',
+		videoID: 'iogcY_4xGjo',
+		challengeDefinition: challengeThreeDefinition,
+		challengeCode: challengeThreeCode,
+		challengeAnswer: '',
+	},
+	{
+		title: 'Survive 100 Days In Circle, Win $500,000',
+		videoID: 'gHzuabZUd6c',
+		challengeDefinition: challengeFourDefinition,
+		challengeCode: challengeFourCode,
 		challengeAnswer: '',
 	},
 ];
