@@ -58,6 +58,18 @@ But first, you wanna start by trying all the burgers.
 Here's an example of what it should look like...
 `;
 
+const challengeSixDefinition = `
+You won a whole bunch of free burgers!
+
+But how many?
+
+Push a big red button and find out...
+
+* Create a function that gives you a random number or burger emojis (between 1 -10) inside an array.
+
+Here's an example of what it should look like...
+`;
+
 const challengeOneCode = `
 // input: JIMMY!
 //  - output: jimmy!?
@@ -280,6 +292,37 @@ let burgersToTry;
 console.log(burgersToTry);
 `;
 
+const challengeSixCode = `
+/*
+
+output: a random array of burgers emojis...
+
+ex: #1
+[ '🍔' ]
+
+ex: #2
+[
+	'🍔', '🍔', '🍔',
+	'🍔', '🍔', '🍔',
+	'🍔', '🍔', '🍔'
+]
+
+ex: #3
+[ '🍔', '🍔', '🍔', '🍔' ]
+
+*/
+
+
+function burgerLotto() {
+	// write your code here
+
+}
+
+
+// returns a random array of burger emojis
+console.log(burgerLotto());
+`;
+
 const challenges = [
 	{
 		title: '100 Kids Vs 100 Adults For $500,000',
@@ -310,10 +353,17 @@ const challenges = [
 		challengeAnswer: '',
 	},
 	{
-		title: 'Hydraulic Press Vs Lamborghini',
-		videoID: 'h5NvTTOlOtI',
+		title: 'I Hunted 100 People!',
+		videoID: '65fN_OUawjk',
 		challengeDefinition: challengeFiveDefinition,
 		challengeCode: challengeFiveCode,
+		challengeAnswer: '',
+	},
+	{
+		title: 'Hydraulic Press Vs Lamborghini',
+		videoID: 'h5NvTTOlOtI',
+		challengeDefinition: challengeSixDefinition,
+		challengeCode: challengeSixCode,
 		challengeAnswer: '',
 	},
 ];
