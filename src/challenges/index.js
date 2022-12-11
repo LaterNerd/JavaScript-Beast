@@ -43,9 +43,9 @@ Here's an example of what it should look like...
 `;
 
 const challengeFiveDefinition = `
-You have yet to go to MrBeastBurger.
+You're on your way to MrBeastBurger.
 
-So you're excited to try everything.
+And you're excited to try everything.
 
 But first, you wanna start by trying all the burgers.
 
