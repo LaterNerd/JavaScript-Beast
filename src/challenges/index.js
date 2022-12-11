@@ -42,6 +42,22 @@ Otherwise, keep the default emoji as a lion.
 Here's an example of what it should look like...
 `;
 
+const challengeFiveDefinition = `
+You have yet to go to MrBeastBurger.
+
+So you're excited to try everything.
+
+But first, you wanna start by trying all the burgers.
+
+1. Create a new array to hold all your burgers.
+
+2. Remove everything from the menuItems array that isn't a burger.
+
+3. Update each object so it only has the item and price properties.
+
+Here's an example of what it should look like...
+`;
+
 const challengeOneCode = `
 // input: JIMMY!
 //  - output: jimmy!?
@@ -189,6 +205,81 @@ function feast() {
 console.log(feast('cookies'));
 `;
 
+const challengeFiveCode = `
+/*
+
+output: an array of objects that look like this...
+
+{
+	item: 'Beast Style - 🍔🦁',
+	price: 10.3,
+}
+
+*/
+
+
+const menuItems = [
+	{
+		item: 'Chicken Sandwich Combo - 🍔🐓🍟🥤',
+		category: 'combo',
+		price: 15.75,
+	},
+	{
+		item: 'Chandler Style - 🍔🧀',
+		category: 'burger',
+		price: 10.3,
+	},
+	{
+		item: 'Chocolate Chip Cookie - 🍪',
+		category: 'dessert',
+		price: 3.1,
+	},
+	{
+		item: 'Crinkle Fries - 🍟',
+		category: 'side',
+		price: 4.65,
+	},
+	{
+		item: 'Chris Style - 🍔🍟',
+		category: 'burger',
+		price: 11.35,
+	},
+	{
+		item: 'Beast Style Fries - 🍟',
+		category: 'side',
+		price: 7,
+	},
+	{
+		item: 'Beast Style - 🍔🦁',
+		category: 'burger',
+		price: 10.3,
+	},
+	{
+		item: 'Beast Style Burger Combo - 🍔🦁🍟🥤',
+		category: 'combo',
+		price: 16.3,
+	},
+	{
+		item: "Karl's Grilled Cheese - 🥪",
+		category: 'burger',
+		price: 6,
+	},
+];
+
+
+function buyBurgers() {
+	// write your code here
+
+}
+
+
+let burgersToTry;
+
+
+// returns an array of objects
+console.log(burgersToTry);
+`;
+
 const challenges = [
 	{
 		title: '100 Kids Vs 100 Adults For $500,000',
@@ -216,6 +307,13 @@ const challenges = [
 		videoID: 'gHzuabZUd6c',
 		challengeDefinition: challengeFourDefinition,
 		challengeCode: challengeFourCode,
+		challengeAnswer: '',
+	},
+	{
+		title: 'Hydraulic Press Vs Lamborghini',
+		videoID: 'h5NvTTOlOtI',
+		challengeDefinition: challengeFiveDefinition,
+		challengeCode: challengeFiveCode,
 		challengeAnswer: '',
 	},
 ];
