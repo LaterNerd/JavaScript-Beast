@@ -70,6 +70,18 @@ Push a big red button and find out...
 Here's an example of what it should look like...
 `;
 
+const challengeSevenDefinition = `
+We need to make funny name tags for everyone in the video.
+
+Everyone already wrote their name down on a list.
+
+So we need to take each name and capitalize every other letter to make it look goofy.
+
+* Create a function that takes in a string and returns it with EvErY oThEr lEtTeR CaPiTaLiZeD.
+
+Here's an example of what it should look like...
+`;
+
 const challengeOneCode = `
 // input: JIMMY!
 //  - output: jimmy!?
@@ -323,6 +335,33 @@ function burgerLotto() {
 console.log(burgerLotto());
 `;
 
+const challengeSevenCode = `
+/*
+
+// input: Jimmy
+//  - output: JiMmY
+
+
+// input: Karl
+//  - output: KaRl
+
+
+// input: Nolan
+//  - output: NoLaN
+
+*/
+
+
+function funnyNameTag() {
+	// write your code here
+
+}
+
+
+// returns the string MaRiO
+console.log(funnyNameTag('Mario'));
+`;
+
 const challenges = [
 	{
 		title: '100 Kids Vs 100 Adults For $500,000',
@@ -364,6 +403,13 @@ const challenges = [
 		videoID: 'h5NvTTOlOtI',
 		challengeDefinition: challengeSixDefinition,
 		challengeCode: challengeSixCode,
+		challengeAnswer: '',
+	},
+	{
+		title: 'I Survived A Plane Crash',
+		videoID: 'jdMNoQE3mIQ',
+		challengeDefinition: challengeSevenDefinition,
+		challengeCode: challengeSevenCode,
 		challengeAnswer: '',
 	},
 ];
