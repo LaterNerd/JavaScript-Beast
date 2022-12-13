@@ -82,6 +82,22 @@ So we need to take each name and capitalize every other letter to make it look g
 Here's an example of what it should look like...
 `;
 
+const challengeEightDefinition = `
+There are three broken cash registers at MrBeast Burger.
+
+When people pay, they show the wrong total.
+
+Sometimes the cash register shows a weird number like $12.459 or $12395.95.
+
+But we know no one ever orders anything over $100.00.
+
+So figure out a way to tell if someone's total is correct.
+
+* Create a function that takes in a string and returns a boolean that tells us if a total is valid.
+
+Here's an example of what it should look like...
+`;
+
 const challengeOneCode = `
 // input: JIMMY!
 //  - output: jimmy!?
@@ -362,6 +378,33 @@ function funnyNameTag() {
 console.log(funnyNameTag('Mario'));
 `;
 
+const challengeEightCode = `
+/*
+
+// input: '$6.02'
+//  - output: true
+
+
+// input: '$101.07'
+//  - output: false
+
+
+// input: '$22.309'
+//  - output: false
+
+*/
+
+
+function verifyTotal() {
+	// write your code here
+
+}
+
+
+// returns false
+console.log(verifyTotal('$1300.87'));
+`;
+
 const challenges = [
 	{
 		title: '100 Kids Vs 100 Adults For $500,000',
@@ -410,6 +453,13 @@ const challenges = [
 		videoID: 'jdMNoQE3mIQ',
 		challengeDefinition: challengeSevenDefinition,
 		challengeCode: challengeSevenCode,
+		challengeAnswer: '',
+	},
+	{
+		title: 'I Gave My 100,000,000th Subscriber An Island',
+		videoID: '2isYuQZMbdU',
+		challengeDefinition: challengeEightDefinition,
+		challengeCode: challengeEightCode,
 		challengeAnswer: '',
 	},
 ];
