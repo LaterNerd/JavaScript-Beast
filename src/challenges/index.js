@@ -98,6 +98,20 @@ So figure out a way to tell if someone's total is correct.
 Here's an example of what it should look like...
 `;
 
+const challengeNineDefinition = `
+Mr. Beast is about to launch 100 new videos tomorrow.
+
+He has all the titles picked out for each one. 
+
+But they all have these weird uppercase issues.
+
+So, he needs you to fix them fast!
+
+* Create a function that takes a sentence and only has the first letter of each word in uppercase.
+
+Here's an example of what it should look like...
+`;
+
 const challengeOneCode = `
 // input: JIMMY!
 //  - output: jimmy!?
@@ -405,6 +419,33 @@ function verifyTotal() {
 console.log(verifyTotal('$1300.87'));
 `;
 
+const challengeNineCode = `
+/*
+
+// input: 'i HuNTed 100 PeOPle!'
+//  - output: 'I Hunted 100 People!'
+
+
+// input: '100 kiDs vs 100 AdUlts fOr $500,000'
+//  - output: '100 Kids Vs 100 Adults For $500,000'
+
+
+// input: 'LAst tO TAKe Hand OFF JeT, KeEps iT!'
+//  - output: 'Last To Take Hand Off Jet, Keeps It!'
+
+*/
+
+
+function titleCaseTitle(text) {
+	// write your code here
+
+}
+
+
+// returns 'I Survived A Plane Crash'
+console.log(titleCaseTitle('i surViVed a plAnE CraSH'));
+`;
+
 const challenges = [
 	{
 		title: '100 Kids Vs 100 Adults For $500,000',
@@ -460,6 +501,13 @@ const challenges = [
 		videoID: '2isYuQZMbdU',
 		challengeDefinition: challengeEightDefinition,
 		challengeCode: challengeEightCode,
+		challengeAnswer: '',
+	},
+	{
+		title: '100 Girls Vs 100 Boys For $500,000',
+		videoID: 'tVWWp1PqDus',
+		challengeDefinition: challengeNineDefinition,
+		challengeCode: challengeNineCode,
 		challengeAnswer: '',
 	},
 ];
