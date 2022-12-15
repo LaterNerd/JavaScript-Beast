@@ -112,6 +112,18 @@ So, he needs you to fix them fast!
 Here's an example of what it should look like...
 `;
 
+const challengeTenDefinition = `
+Mr. Beast told everyone to get in line based on the length of their name.
+
+The shortest name goes first, and the longest has to go last.
+
+So anyone who's out of order will get eliminated.
+
+* Create a function that takes an array of names and puts them in order from shortest to longest
+
+Here's an example of what it should look like...
+`;
+
 const challengeOneCode = `
 // input: JIMMY!
 //  - output: jimmy!?
@@ -446,6 +458,26 @@ function titleCaseTitle(text) {
 console.log(titleCaseTitle('i surViVed a plAnE CraSH'));
 `;
 
+const challengeTenCode = `
+/*
+output: an array of names sorted by length
+
+['Kai', 'Lily', 'Naomi', 'Olivia' ]
+
+*/
+
+const names = ['Olivia', 'Naomi', 'Kai', 'Lily'];
+
+function sortNamesByLength(array) {
+	// write your code here
+}
+
+
+// function should return an array of names 
+// that look like the example above
+console.log(sortNamesByLength(names));
+`;
+
 const challenges = [
 	{
 		title: '100 Kids Vs 100 Adults For $500,000',
@@ -508,6 +540,13 @@ const challenges = [
 		videoID: 'tVWWp1PqDus',
 		challengeDefinition: challengeNineDefinition,
 		challengeCode: challengeNineCode,
+		challengeAnswer: '',
+	},
+	{
+		title: 'I Didn’t Eat Food For 30 Days',
+		videoID: 'vaIgyRoUkQI',
+		challengeDefinition: challengeTenDefinition,
+		challengeCode: challengeTenCode,
 		challengeAnswer: '',
 	},
 ];
