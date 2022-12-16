@@ -124,6 +124,20 @@ So anyone who's out of order will get eliminated.
 Here's an example of what it should look like...
 `;
 
+const challengeElevenDefinition = `
+Mr. Beast dropped you in a maze with 99 other people.
+
+But before he left, he gave everyone a map and directions to get out.
+
+The only problem is that he reversed all the directions.
+
+And you have 30 minutes to get out.
+
+* Create a function that takes in an array and reverses each string so that it's easy to read
+
+Here's an example of what it should look like...
+`;
+
 const challengeOneCode = `
 // input: JIMMY!
 //  - output: jimmy!?
@@ -478,6 +492,34 @@ function sortNamesByLength(array) {
 console.log(sortNamesByLength(names));
 `;
 
+const challengeElevenCode = `
+/*
+
+// input: [".gniyas m'I tahw tuo dnif ot em esrever"]
+// output:["reverse me to find out what I'm saying."]
+
+*/
+
+
+const directions = [
+	"rood terces a s'erehT",
+	".ezam eht fo elddim eht ni",
+	"nosrep tsrif ehT",
+	"hguorht klaw ot",
+	".sniw",
+];
+
+
+function reverseDirections(array) {
+	// write your code here
+
+}
+
+
+// return an array of readable directions 
+console.log(reverseDirections(directions));
+`;
+
 const challenges = [
 	{
 		title: '100 Kids Vs 100 Adults For $500,000',
@@ -547,6 +589,13 @@ const challenges = [
 		videoID: 'vaIgyRoUkQI',
 		challengeDefinition: challengeTenDefinition,
 		challengeCode: challengeTenCode,
+		challengeAnswer: '',
+	},
+	{
+		title: "I Built Willy Wonka's Chocolate Factory!",
+		videoID: 'Hwybp38GnZw',
+		challengeDefinition: challengeElevenDefinition,
+		challengeCode: challengeElevenCode,
 		challengeAnswer: '',
 	},
 ];
