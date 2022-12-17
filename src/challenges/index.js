@@ -10,6 +10,7 @@ import {
 	challengeNineDefinition,
 	challengeTenDefinition,
 	challengeElevenDefinition,
+	challengeTwelveDefinition,
 } from './definitions';
 import {
 	challengeOneCode,
@@ -23,6 +24,7 @@ import {
 	challengeNineCode,
 	challengeTenCode,
 	challengeElevenCode,
+	challengeTwelveCode,
 } from './code';
 
 const challenges = [
@@ -101,6 +103,13 @@ const challenges = [
 		videoID: 'Hwybp38GnZw',
 		challengeDefinition: challengeElevenDefinition,
 		challengeCode: challengeElevenCode,
+		challengeAnswer: '',
+	},
+	{
+		title: '$10,000 Every Day You Survive Prison',
+		videoID: 'hD1YtmKXNb4',
+		challengeDefinition: challengeTwelveDefinition,
+		challengeCode: challengeTwelveCode,
 		challengeAnswer: '',
 	},
 ];

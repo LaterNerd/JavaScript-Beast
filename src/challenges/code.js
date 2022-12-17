@@ -379,3 +379,53 @@ function reverseDirections(array) {
 // return an array of readable directions 
 console.log(reverseDirections(directions));
 `;
+
+export const challengeTwelveCode = `
+/*
+
+// input:
+
+[
+	'Throw an Axe at A Target 🪓',
+	'Catch a Chicken Tender 🐓',
+	'Rock Wall 🧗‍♀️',
+	'Basket In A Basket 🏀',
+	'Swim 5 Laps 🏊‍♀️',
+	'Score A Soccer Goal ⚽️',
+	'Cornhole 🌽',
+];
+
+// output:
+
+Challenges:
+#1 Throw an Axe at A Target 🪓
+#2 Catch a Chicken Tender 🐓
+#3 Rock Wall 🧗‍♀️
+#4 Basket In A Basket 🏀
+#5 Swim 5 Laps 🏊‍♀️
+#6 Score A Soccer Goal ⚽️
+#7 Cornhole 🌽
+
+*/
+
+
+const challenges = [
+	'Find Waldo 🔎',
+	'Buy Flowers For A Stranger 💐',
+	'Obstacle Course 🚗',
+	'Pick A Lock 🔒',
+	'Break 2X4 🥋',
+	'Make A Hole In One ⛳️',
+	'Kick A Field Goal 🏈',
+];
+
+
+function createAdventureChecklist() {
+	// write your code here
+
+}
+
+
+// return a string with all the challenges listed 
+console.log(createAdventureChecklist(challenges));
+`;

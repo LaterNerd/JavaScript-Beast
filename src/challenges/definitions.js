@@ -137,3 +137,13 @@ And you have 30 minutes to get out.
 
 Here's an example of what it should look like...
 `;
+
+export const challengeTwelveDefinition = `
+To go to the next round, everyone has to finish 7 challenges.
+
+But there are different versions of challenges for each person.
+
+* Create a function that takes in a list of challenges and puts them in the correct order for someone to do.
+
+Here's an example of what it should look like...
+`;
