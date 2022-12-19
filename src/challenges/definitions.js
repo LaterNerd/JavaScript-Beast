@@ -147,3 +147,17 @@ But there are different versions of challenges for each person.
 
 Here's an example of what it should look like...
 `;
+
+export const challengeThirteenDefinition = `
+We need to build a custom cash register for Mr. Beast Burger that uses emojis.
+
+Every time we input a word wrapped in colons (:burger:), we need to check if that emoji exists.
+
+If it does, we need to replace the word with the emoji.
+
+If it doesn't, we should return the word.
+
+* Create a function that checks if any word in an order is an emoji. If it is, replace it with that emoji. Then return the order back.
+
+Here's an example of what it should look like...
+`;

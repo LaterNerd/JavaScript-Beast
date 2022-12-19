@@ -429,3 +429,40 @@ function createAdventureChecklist() {
 // return a string with all the challenges listed 
 console.log(createAdventureChecklist(challenges));
 `;
+
+export const challengeThirteenCode = `
+/*
+
+// input: "1 :hamSandwich:"
+// output: "1 hamSandwich"
+
+// input: "1 :chickenSandwichCombo:"
+// output: "1 🍔🐓🍟🥤 1 🥪"
+
+// input: "I want 2 :burger: 1 :fries:"
+// output: "I want 2 🍔 1 🍟"
+
+*/
+
+
+const menuEmojis = {
+	"burger": "🍔",
+	"fries": "🍟",
+	"cookie": "🍪",
+	"chrisStyle": "🍔🍟",
+	"beastStyle": "🍔🦁",
+	"chandlerStyle": "🍔🧀",
+	"karlGrilledCheese": "🥪",
+	"chickenSandwichCombo": "🍔🐓🍟🥤",
+	"beastStyleBurgerCombo": "🍔🦁🍟🥤",
+};
+
+
+function newOrder() {
+	// write your code here
+}
+
+
+// return a string with all the challenges listed 
+console.log(newOrder('I want 2 :burger: 1 :fries:'));
+`;

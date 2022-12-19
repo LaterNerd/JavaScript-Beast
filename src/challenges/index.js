@@ -11,6 +11,7 @@ import {
 	challengeTenDefinition,
 	challengeElevenDefinition,
 	challengeTwelveDefinition,
+	challengeThirteenDefinition,
 } from './definitions';
 import {
 	challengeOneCode,
@@ -25,6 +26,7 @@ import {
 	challengeTenCode,
 	challengeElevenCode,
 	challengeTwelveCode,
+	challengeThirteenCode,
 } from './code';
 
 const challenges = [
@@ -110,6 +112,13 @@ const challenges = [
 		videoID: 'hD1YtmKXNb4',
 		challengeDefinition: challengeTwelveDefinition,
 		challengeCode: challengeTwelveCode,
+		challengeAnswer: '',
+	},
+	{
+		title: 'Would You Swim With Sharks For $100,000?',
+		videoID: 'LnlKwzc_TNA',
+		challengeDefinition: challengeThirteenDefinition,
+		challengeCode: challengeThirteenCode,
 		challengeAnswer: '',
 	},
 ];
