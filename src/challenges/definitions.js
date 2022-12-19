@@ -161,3 +161,15 @@ If it doesn't, we should return the word.
 
 Here's an example of what it should look like...
 `;
+
+export const challengeFourteenDefinition = `
+Mr. Beast decided to run a bot on his last youtube and go through all the comments.
+
+And everyone who commented is getting some money.
+
+How much he gives everyone depends on the letters in their username.
+
+* Create a function that takes in a string and gives it a score based on the letters inside it.
+
+Here's an example of what it should look like...
+`;

@@ -12,6 +12,7 @@ import {
 	challengeElevenDefinition,
 	challengeTwelveDefinition,
 	challengeThirteenDefinition,
+	challengeFourteenDefinition,
 } from './definitions';
 import {
 	challengeOneCode,
@@ -27,6 +28,7 @@ import {
 	challengeElevenCode,
 	challengeTwelveCode,
 	challengeThirteenCode,
+	challengeFourteenCode,
 } from './code';
 
 const challenges = [
@@ -119,6 +121,13 @@ const challenges = [
 		videoID: 'LnlKwzc_TNA',
 		challengeDefinition: challengeThirteenDefinition,
 		challengeCode: challengeThirteenCode,
+		challengeAnswer: '',
+	},
+	{
+		title: 'World’s Most Dangerous Escape Room!',
+		videoID: '3jS_yEK8qVI',
+		challengeDefinition: challengeFourteenDefinition,
+		challengeCode: challengeFourteenCode,
 		challengeAnswer: '',
 	},
 ];
