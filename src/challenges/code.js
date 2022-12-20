@@ -518,3 +518,33 @@ function scoreString() {
 // return a number based on the username score
 console.log(scoreString('@mr.beast'));
 `;
+
+export const challengeFifteenCode = `
+/*
+
+let secretPhrasesUsed = ['civic'];
+
+// input: 'civic'
+// output: false
+
+// input: 'madam'
+// output: true
+
+// input: 'MoM'
+// output: true
+
+*/
+
+
+let secretPhrasesUsed = ['civic'];
+
+
+function secretPhraseWorks() {
+	// write your code here
+
+}
+
+
+// return a boolean based on if the secret phrase works
+console.log(secretPhraseWorks('wow'));
+`;

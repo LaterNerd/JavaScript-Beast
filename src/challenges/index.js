@@ -13,6 +13,7 @@ import {
 	challengeTwelveDefinition,
 	challengeThirteenDefinition,
 	challengeFourteenDefinition,
+	challengeFifteenDefinition,
 } from './definitions';
 import {
 	challengeOneCode,
@@ -29,6 +30,7 @@ import {
 	challengeTwelveCode,
 	challengeThirteenCode,
 	challengeFourteenCode,
+	challengeFifteenCode,
 } from './code';
 
 const challenges = [
@@ -128,6 +130,13 @@ const challenges = [
 		videoID: '3jS_yEK8qVI',
 		challengeDefinition: challengeFourteenDefinition,
 		challengeCode: challengeFourteenCode,
+		challengeAnswer: '',
+	},
+	{
+		title: 'Extreme $1,000,000 Hide And Seek',
+		videoID: '00NgUctWoLQ',
+		challengeDefinition: challengeFifteenDefinition,
+		challengeCode: challengeFifteenCode,
 		challengeAnswer: '',
 	},
 ];

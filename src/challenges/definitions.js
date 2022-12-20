@@ -173,3 +173,17 @@ How much he gives everyone depends on the letters in their username.
 
 Here's an example of what it should look like...
 `;
+
+export const challengeFifteenDefinition = `
+Mr. beast is throwing a private party.
+
+Everyone knows where it is but not how to get in.
+
+But someone found a clue...
+
+To get in, you have to say a word that's the same forwards and backward.
+
+* Create a function that checks if a word is the same forwards and backward. It also can't be a word someone's already used.
+
+Here's an example of what it should look like...
+`;
