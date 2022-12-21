@@ -142,8 +142,8 @@ const challenges = [
 		challengeAnswer: '',
 	},
 	{
-		title: 'Extreme $1,000,000 Hide And Seek',
-		videoID: '00NgUctWoLQ',
+		title: '$1,000,000 Influencer Tournament!',
+		videoID: 'x9TQ6culXIA',
 		challengeDefinition: challengeSixteenDefinition,
 		challengeCode: challengeSixteenCode,
 		challengeAnswer: '',
