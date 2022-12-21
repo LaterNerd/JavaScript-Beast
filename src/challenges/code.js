@@ -548,3 +548,26 @@ function secretPhraseWorks() {
 // return a boolean based on if the secret phrase works
 console.log(secretPhraseWorks('wow'));
 `;
+
+export const challengeSixteenCode = `
+/*
+
+// input: 'Find the car with license plate 3iJKS8J'
+
+// output:
+f||i||n||d t||h||e c||a||r w||i||t||h 
+l||i||c||e||n||s||e p||l||a||t||e 
+3||i||j||k||s||8||j
+
+*/
+
+
+function hideClue() {
+	// write your code here
+
+}
+
+
+// return f||i||r||s||t g||o||e||s l||a||s||t
+console.log(hideClue('first goes last'));
+`;

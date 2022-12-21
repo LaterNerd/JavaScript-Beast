@@ -187,3 +187,19 @@ To get in, you have to say a word that's the same forwards and backward.
 
 Here's an example of what it should look like...
 `;
+
+export const challengeSixteenDefinition = `
+We're setting up clues for the next challenge. 
+
+But we're not gonna give people the answer.
+
+We're gonna make it hard.
+
+So we need you to add '||' between every letter of a word. 
+
+But don't add anything if there's a space in the string.
+
+* Create a function that takes in a string and puts '||' between every letter of a string except spaces. Then return it.
+
+Here's an example of what it should look like...
+`;
