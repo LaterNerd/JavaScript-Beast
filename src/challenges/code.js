@@ -575,14 +575,14 @@ console.log(hideClue('first goes last'));
 export const challengeSeventeenCode = `
 /*
 
-// input: ['🍔', ['🍔'], ['🍔', '🍔'], '🍔', '🍔', ['🍔']]
+// input: ['🍔', ['🍔'], ['🍔', '🍔'], ['🍔']]
 
-// output: ['🍔', '🍔', '🍔', '🍔', '🍔', '🍔', '🍔']
+// output: ['🍔', '🍔', '🍔', '🍔', '🍔']
 
 */
 
 
-const crazyBurgerBox = ['🍔', ['🍔'], ['🍔', '🍔'], '🍔', '🍔', ['🍔']];
+const crazyBurgerBox = [['🍔', '🍔'], '🍔', ['🍔'], '🍔'];
 
 
 function tidyBurgerBox() {
@@ -593,4 +593,23 @@ function tidyBurgerBox() {
 
 // return all the burgers in one array
 console.log(tidyBurgerBox(crazyBurgerBox));
+`;
+
+export const challengeEighteenCode = `
+/*
+
+// input: 3 people, 23 burgers
+// output: { makeThisMany: 21, burgersPerPerson: 7 }
+
+*/
+
+
+function burgerGiveaway() {
+	// write your code here
+
+}
+
+
+// return: { makeThisMany: 78, burgersPerPerson: 6 }
+console.log(burgerGiveaway(87, 13));
 `;

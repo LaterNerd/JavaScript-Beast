@@ -223,3 +223,16 @@ But they all need to be inside a single box without any bags.
 
 Here's an example of what it should look like...
 `;
+
+export const challengeEighteenDefinition = `
+At the end of the day, there's always a limited amount of ingredients at Mr. Beast Burger.
+
+So we can only make a certain amount of burgers.
+
+That's why we made a rule: give away an equal amount of burgers to everyone at the restaurant at 10pm.
+
+1. Create a function that takes in the total amount of burgers left and the number of people at the restaurant.
+2. Return an object of burgers we need to make and how many each person can have.
+
+Here's an example of what it should look like...
+`;

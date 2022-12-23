@@ -16,6 +16,7 @@ import {
 	challengeFifteenDefinition,
 	challengeSixteenDefinition,
 	challengeSeventeenDefinition,
+	challengeEighteenDefinition,
 } from './definitions';
 import {
 	challengeOneCode,
@@ -35,6 +36,7 @@ import {
 	challengeFifteenCode,
 	challengeSixteenCode,
 	challengeSeventeenCode,
+	challengeEighteenCode,
 } from './code';
 
 const challenges = [
@@ -155,6 +157,13 @@ const challenges = [
 		videoID: 'QbJJwaVdgIs',
 		challengeDefinition: challengeSeventeenDefinition,
 		challengeCode: challengeSeventeenCode,
+		challengeAnswer: '',
+	},
+	{
+		title: '$456,000 Squid Game In Real Life!',
+		videoID: '0e3GPea1Tyg',
+		challengeDefinition: challengeEighteenDefinition,
+		challengeCode: challengeEighteenCode,
 		challengeAnswer: '',
 	},
 ];
