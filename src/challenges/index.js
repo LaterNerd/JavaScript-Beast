@@ -15,6 +15,7 @@ import {
 	challengeFourteenDefinition,
 	challengeFifteenDefinition,
 	challengeSixteenDefinition,
+	challengeSeventeenDefinition,
 } from './definitions';
 import {
 	challengeOneCode,
@@ -33,6 +34,7 @@ import {
 	challengeFourteenCode,
 	challengeFifteenCode,
 	challengeSixteenCode,
+	challengeSeventeenCode,
 } from './code';
 
 const challenges = [
@@ -146,6 +148,13 @@ const challenges = [
 		videoID: 'x9TQ6culXIA',
 		challengeDefinition: challengeSixteenDefinition,
 		challengeCode: challengeSixteenCode,
+		challengeAnswer: '',
+	},
+	{
+		title: 'I Got Hunted By The Military',
+		videoID: 'QbJJwaVdgIs',
+		challengeDefinition: challengeSeventeenDefinition,
+		challengeCode: challengeSeventeenCode,
 		challengeAnswer: '',
 	},
 ];

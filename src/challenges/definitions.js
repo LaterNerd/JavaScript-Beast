@@ -203,3 +203,23 @@ But don't add anything if there's a space in the string.
 
 Here's an example of what it should look like...
 `;
+
+export const challengeSeventeenDefinition = `
+Someone came into Mr. Beast Burger and ordered 1,000 hamburgers.
+
+But we're not used to orders this big.
+
+So we panicked putting the order together.
+
+Now all the burgers are all over the place.
+
+Some burgers are in a box.
+
+Some burgers are in bags inside the box.
+
+But they all need to be inside a single box without any bags.
+
+* Create a function that takes in an array of nested arrays. Then return all the elements inside a single array.
+
+Here's an example of what it should look like...
+`;

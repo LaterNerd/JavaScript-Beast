@@ -571,3 +571,26 @@ function hideClue() {
 // return f||i||r||s||t g||o||e||s l||a||s||t
 console.log(hideClue('first goes last'));
 `;
+
+export const challengeSeventeenCode = `
+/*
+
+// input: ['🍔', ['🍔'], ['🍔', '🍔'], '🍔', '🍔', ['🍔']]
+
+// output: ['🍔', '🍔', '🍔', '🍔', '🍔', '🍔', '🍔']
+
+*/
+
+
+const crazyBurgerBox = ['🍔', ['🍔'], ['🍔', '🍔'], '🍔', '🍔', ['🍔']];
+
+
+function tidyBurgerBox() {
+	// write your code here
+
+}
+
+
+// return all the burgers in one array
+console.log(tidyBurgerBox(crazyBurgerBox));
+`;
